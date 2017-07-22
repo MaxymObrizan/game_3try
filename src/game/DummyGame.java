@@ -116,7 +116,7 @@ public class DummyGame implements IGameLogic {
         monster.setScale(0.05f);
         monster.setRotation(90, 0, 0);
         
-        scene.setGameItems(new GameItem[]{cubeGameItem, quadGameItem, monster});
+        scene.setGameItems(new GameItem[]{cubeGameItem, /*quadGameItem,*/ monster});
         
         scene.setGameItems(terrain.getGameItems());
 
